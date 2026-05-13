@@ -1,1 +1,12 @@
+Nikto Commands Used:
 
+nikto -h https://www.relianceretail.com/
+nikto -h https://www.relianceretail.com/ -output scan.txt
+nikto -h https://www.relianceretail.com/ -p 443
+nikto -h https://www.relianceretail.com/ -Tuning 0
+nikto -h https://www.relianceretail.com/ -Display V
+nikto -h https://www.relianceretail.com/ -Display D
+nikto -h https://www.relianceretail.com/ -ssl
+nikto -hhttps://www.relianceretail.com/ -evasion 1
+nikto -h https://www.relianceretail.com/  -output scan.html
+nikto -h https://www.relianceretail.com/  -output scan.xml
